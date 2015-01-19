@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		280D53BC184F0A14009D5682 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 280D53BB184F0A14009D5682 /* Foundation.framework */; };
+		280D53BE184F0A14009D5682 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 280D53BD184F0A14009D5682 /* CoreGraphics.framework */; };
+		280D53C0184F0A14009D5682 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 280D53BF184F0A14009D5682 /* UIKit.framework */; };
+		280D53C6184F0A14009D5682 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 280D53C4184F0A14009D5682 /* InfoPlist.strings */; };
+		280D53C8184F0A14009D5682 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 280D53C7184F0A14009D5682 /* main.m */; };
+		280D53CC184F0A14009D5682 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 280D53CB184F0A14009D5682 /* AppDelegate.m */; };
+		280D53CF184F0A14009D5682 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 280D53CD184F0A14009D5682 /* Main_iPhone.storyboard */; };
+		280D53D5184F0A14009D5682 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 280D53D4184F0A14009D5682 /* ViewController.m */; };
+		280D53D7184F0A14009D5682 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 280D53D6184F0A14009D5682 /* Images.xcassets */; };
+		280D53DE184F0A14009D5682 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 280D53DD184F0A14009D5682 /* XCTest.framework */; };
+		280D53DF184F0A14009D5682 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 280D53BB184F0A14009D5682 /* Foundation.framework */; };
+		280D53E0184F0A14009D5682 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 280D53BF184F0A14009D5682 /* UIKit.framework */; };
+		280D53E8184F0A14009D5682 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 280D53E6184F0A14009D5682 /* InfoPlist.strings */; };
+		280D53EA184F0A14009D5682 /* Dota2InvokerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 280D53E9184F0A14009D5682 /* Dota2InvokerTests.m */; };
+		280D540B184F0B5A009D5682 /* invoker_alacrity_hp1.png in Resources */ = {isa = PBXBuildFile; fileRef = 280D53F4184F0B5A009D5682 /* invoker_alacrity_hp1.png */; };
+		280D540C184F0B5A009D5682 /* invoker_chaos_meteor_hp1.png in Resources */ = {isa = PBXBuildFile; fileRef = 280D53F5184F0B5A009D5682 /* invoker_chaos_meteor_hp1.png */; };
+		280D540D184F0B5A009D5682 /* invoker_cold_snap_hp1.png in Resources */ = {isa = PBXBuildFile; fileRef = 280D53F6184F0B5A009D5682 /* invoker_cold_snap_hp1.png */; };
+		280D540E184F0B5A009D5682 /* invoker_deafening_blast_hp1.png in Resources */ = {isa = PBXBuildFile; fileRef = 280D53F7184F0B5A009D5682 /* invoker_deafening_blast_hp1.png */; };
+		280D540F184F0B5A009D5682 /* invoker_emp_hp1.png in Resources */ = {isa = PBXBuildFile; fileRef = 280D53F8184F0B5A009D5682 /* invoker_emp_hp1.png */; };
+		280D5410184F0B5A009D5682 /* invoker_exort_hp1.png in Resources */ = {isa = PBXBuildFile; fileRef = 280D53F9184F0B5A009D5682 /* invoker_exort_hp1.png */; };
+		280D5411184F0B5A009D5682 /* invoker_forge_spirit_hp1.png in Resources */ = {isa = PBXBuildFile; fileRef = 280D53FA184F0B5A009D5682 /* invoker_forge_spirit_hp1.png */; };
+		280D5412184F0B5A009D5682 /* invoker_full.png in Resources */ = {isa = PBXBuildFile; fileRef = 280D53FB184F0B5A009D5682 /* invoker_full.png */; };
+		280D5413184F0B5A009D5682 /* invoker_ghost_walk_hp1.png in Resources */ = {isa = PBXBuildFile; fileRef = 280D53FC184F0B5A009D5682 /* invoker_ghost_walk_hp1.png */; };
+		280D5414184F0B5A009D5682 /* invoker_ice_wall_hp1.png in Resources */ = {isa = PBXBuildFile; fileRef = 280D53FD184F0B5A009D5682 /* invoker_ice_wall_hp1.png */; };
+		280D5415184F0B5A009D5682 /* invoker_invoke_hp1.png in Resources */ = {isa = PBXBuildFile; fileRef = 280D53FE184F0B5A009D5682 /* invoker_invoke_hp1.png */; };
+		280D5416184F0B5A009D5682 /* invoker_quas_hp1.png in Resources */ = {isa = PBXBuildFile; fileRef = 280D53FF184F0B5A009D5682 /* invoker_quas_hp1.png */; };
+		280D5417184F0B5A009D5682 /* invoker_sun_strike_hp1.png in Resources */ = {isa = PBXBuildFile; fileRef = 280D5400184F0B5A009D5682 /* invoker_sun_strike_hp1.png */; };
+		280D5418184F0B5A009D5682 /* invoker_tornado_hp1.png in Resources */ = {isa = PBXBuildFile; fileRef = 280D5401184F0B5A009D5682 /* invoker_tornado_hp1.png */; };
+		280D5419184F0B5A009D5682 /* invoker_vert.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 280D5402184F0B5A009D5682 /* invoker_vert.jpg */; };
+		280D541A184F0B5A009D5682 /* invoker_wex_hp1.png in Resources */ = {isa = PBXBuildFile; fileRef = 280D5403184F0B5A009D5682 /* invoker_wex_hp1.png */; };
+		280D541B184F0B5A009D5682 /* overviewicon_agi.png in Resources */ = {isa = PBXBuildFile; fileRef = 280D5404184F0B5A009D5682 /* overviewicon_agi.png */; };
+		280D541C184F0B5A009D5682 /* overviewicon_attack.png in Resources */ = {isa = PBXBuildFile; fileRef = 280D5405184F0B5A009D5682 /* overviewicon_attack.png */; };
+		280D541D184F0B5A009D5682 /* overviewicon_defense.png in Resources */ = {isa = PBXBuildFile; fileRef = 280D5406184F0B5A009D5682 /* overviewicon_defense.png */; };
+		280D541E184F0B5A009D5682 /* overviewicon_int.png in Resources */ = {isa = PBXBuildFile; fileRef = 280D5407184F0B5A009D5682 /* overviewicon_int.png */; };
+		280D541F184F0B5A009D5682 /* overviewicon_speed.png in Resources */ = {isa = PBXBuildFile; fileRef = 280D5408184F0B5A009D5682 /* overviewicon_speed.png */; };
+		280D5420184F0B5A009D5682 /* overviewicon_str.png in Resources */ = {isa = PBXBuildFile; fileRef = 280D5409184F0B5A009D5682 /* overviewicon_str.png */; };
+		280D5425184F0DA4009D5682 /* cooldown.png in Resources */ = {isa = PBXBuildFile; fileRef = 280D5422184F0DA4009D5682 /* cooldown.png */; };
+		280D5426184F0DA4009D5682 /* heroprimaryportrait_overlay.png in Resources */ = {isa = PBXBuildFile; fileRef = 280D5423184F0DA4009D5682 /* heroprimaryportrait_overlay.png */; };
+		280D5427184F0DA4009D5682 /* mana.png in Resources */ = {isa = PBXBuildFile; fileRef = 280D5424184F0DA4009D5682 /* mana.png */; };
+		280D5430184F30F3009D5682 /* SkillCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 280D542F184F30F3009D5682 /* SkillCell.m */; };
+		280D5433184F3217009D5682 /* SkillViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 280D5432184F3217009D5682 /* SkillViewController.m */; };
+		2814E5DC184F90C50008CB02 /* TabImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2814E5DB184F90C50008CB02 /* TabImageView.m */; };
+		2838F4321850427C00C90ED1 /* shadow.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2838F4311850427C00C90ED1 /* shadow.jpg */; };
+		2838F4341850446C00C90ED1 /* frame.png in Resources */ = {isa = PBXBuildFile; fileRef = 2838F4331850446C00C90ED1 /* frame.png */; };
+		2838F436185045F700C90ED1 /* wframe.png in Resources */ = {isa = PBXBuildFile; fileRef = 2838F435185045F700C90ED1 /* wframe.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		280D53E1184F0A14009D5682 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 280D53B0184F0A14009D5682 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 280D53B7184F0A14009D5682;
+			remoteInfo = Dota2Invoker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		280D53B8184F0A14009D5682 /* Dota2Invoker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dota2Invoker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		280D53BB184F0A14009D5682 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		280D53BD184F0A14009D5682 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		280D53BF184F0A14009D5682 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		280D53C3184F0A14009D5682 /* Dota2Invoker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Dota2Invoker-Info.plist"; sourceTree = "<group>"; };
+		280D53C5184F0A14009D5682 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		280D53C7184F0A14009D5682 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		280D53C9184F0A14009D5682 /* Dota2Invoker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Dota2Invoker-Prefix.pch"; sourceTree = "<group>"; };
+		280D53CA184F0A14009D5682 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		280D53CB184F0A14009D5682 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		280D53CE184F0A14009D5682 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		280D53D3184F0A14009D5682 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		280D53D4184F0A14009D5682 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		280D53D6184F0A14009D5682 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		280D53DC184F0A14009D5682 /* Dota2InvokerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Dota2InvokerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		280D53DD184F0A14009D5682 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		280D53E5184F0A14009D5682 /* Dota2InvokerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Dota2InvokerTests-Info.plist"; sourceTree = "<group>"; };
+		280D53E7184F0A14009D5682 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		280D53E9184F0A14009D5682 /* Dota2InvokerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dota2InvokerTests.m; sourceTree = "<group>"; };
+		280D53F4184F0B5A009D5682 /* invoker_alacrity_hp1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = invoker_alacrity_hp1.png; sourceTree = "<group>"; };
+		280D53F5184F0B5A009D5682 /* invoker_chaos_meteor_hp1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = invoker_chaos_meteor_hp1.png; sourceTree = "<group>"; };
+		280D53F6184F0B5A009D5682 /* invoker_cold_snap_hp1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = invoker_cold_snap_hp1.png; sourceTree = "<group>"; };
+		280D53F7184F0B5A009D5682 /* invoker_deafening_blast_hp1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = invoker_deafening_blast_hp1.png; sourceTree = "<group>"; };
+		280D53F8184F0B5A009D5682 /* invoker_emp_hp1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = invoker_emp_hp1.png; sourceTree = "<group>"; };
+		280D53F9184F0B5A009D5682 /* invoker_exort_hp1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = invoker_exort_hp1.png; sourceTree = "<group>"; };
+		280D53FA184F0B5A009D5682 /* invoker_forge_spirit_hp1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = invoker_forge_spirit_hp1.png; sourceTree = "<group>"; };
+		280D53FB184F0B5A009D5682 /* invoker_full.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = invoker_full.png; sourceTree = "<group>"; };
+		280D53FC184F0B5A009D5682 /* invoker_ghost_walk_hp1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = invoker_ghost_walk_hp1.png; sourceTree = "<group>"; };
+		280D53FD184F0B5A009D5682 /* invoker_ice_wall_hp1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = invoker_ice_wall_hp1.png; sourceTree = "<group>"; };
+		280D53FE184F0B5A009D5682 /* invoker_invoke_hp1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = invoker_invoke_hp1.png; sourceTree = "<group>"; };
+		280D53FF184F0B5A009D5682 /* invoker_quas_hp1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = invoker_quas_hp1.png; sourceTree = "<group>"; };
+		280D5400184F0B5A009D5682 /* invoker_sun_strike_hp1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = invoker_sun_strike_hp1.png; sourceTree = "<group>"; };
+		280D5401184F0B5A009D5682 /* invoker_tornado_hp1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = invoker_tornado_hp1.png; sourceTree = "<group>"; };
+		280D5402184F0B5A009D5682 /* invoker_vert.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = invoker_vert.jpg; sourceTree = "<group>"; };
+		280D5403184F0B5A009D5682 /* invoker_wex_hp1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = invoker_wex_hp1.png; sourceTree = "<group>"; };
+		280D5404184F0B5A009D5682 /* overviewicon_agi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = overviewicon_agi.png; sourceTree = "<group>"; };
+		280D5405184F0B5A009D5682 /* overviewicon_attack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = overviewicon_attack.png; sourceTree = "<group>"; };
+		280D5406184F0B5A009D5682 /* overviewicon_defense.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = overviewicon_defense.png; sourceTree = "<group>"; };
+		280D5407184F0B5A009D5682 /* overviewicon_int.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = overviewicon_int.png; sourceTree = "<group>"; };
+		280D5408184F0B5A009D5682 /* overviewicon_speed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = overviewicon_speed.png; sourceTree = "<group>"; };
+		280D5409184F0B5A009D5682 /* overviewicon_str.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = overviewicon_str.png; sourceTree = "<group>"; };
+		280D5422184F0DA4009D5682 /* cooldown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cooldown.png; sourceTree = "<group>"; };
+		280D5423184F0DA4009D5682 /* heroprimaryportrait_overlay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heroprimaryportrait_overlay.png; sourceTree = "<group>"; };
+		280D5424184F0DA4009D5682 /* mana.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mana.png; sourceTree = "<group>"; };
+		280D542E184F30F3009D5682 /* SkillCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkillCell.h; sourceTree = "<group>"; };
+		280D542F184F30F3009D5682 /* SkillCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkillCell.m; sourceTree = "<group>"; };
+		280D5431184F3217009D5682 /* SkillViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkillViewController.h; sourceTree = "<group>"; };
+		280D5432184F3217009D5682 /* SkillViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkillViewController.m; sourceTree = "<group>"; };
+		2814E5DA184F90C50008CB02 /* TabImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabImageView.h; sourceTree = "<group>"; };
+		2814E5DB184F90C50008CB02 /* TabImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabImageView.m; sourceTree = "<group>"; };
+		2838F4311850427C00C90ED1 /* shadow.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shadow.jpg; sourceTree = "<group>"; };
+		2838F4331850446C00C90ED1 /* frame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frame.png; sourceTree = "<group>"; };
+		2838F435185045F700C90ED1 /* wframe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wframe.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		280D53B5184F0A14009D5682 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				280D53BE184F0A14009D5682 /* CoreGraphics.framework in Frameworks */,
+				280D53C0184F0A14009D5682 /* UIKit.framework in Frameworks */,
+				280D53BC184F0A14009D5682 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		280D53D9184F0A14009D5682 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				280D53DE184F0A14009D5682 /* XCTest.framework in Frameworks */,
+				280D53E0184F0A14009D5682 /* UIKit.framework in Frameworks */,
+				280D53DF184F0A14009D5682 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		280D53AF184F0A14009D5682 = {
+			isa = PBXGroup;
+			children = (
+				280D53C1184F0A14009D5682 /* Dota2Invoker */,
+				280D53E3184F0A14009D5682 /* Dota2InvokerTests */,
+				280D53BA184F0A14009D5682 /* Frameworks */,
+				280D53B9184F0A14009D5682 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		280D53B9184F0A14009D5682 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				280D53B8184F0A14009D5682 /* Dota2Invoker.app */,
+				280D53DC184F0A14009D5682 /* Dota2InvokerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		280D53BA184F0A14009D5682 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				280D53BB184F0A14009D5682 /* Foundation.framework */,
+				280D53BD184F0A14009D5682 /* CoreGraphics.framework */,
+				280D53BF184F0A14009D5682 /* UIKit.framework */,
+				280D53DD184F0A14009D5682 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		280D53C1184F0A14009D5682 /* Dota2Invoker */ = {
+			isa = PBXGroup;
+			children = (
+				280D53CA184F0A14009D5682 /* AppDelegate.h */,
+				280D53CB184F0A14009D5682 /* AppDelegate.m */,
+				280D53CD184F0A14009D5682 /* Main_iPhone.storyboard */,
+				2814E5DA184F90C50008CB02 /* TabImageView.h */,
+				2814E5DB184F90C50008CB02 /* TabImageView.m */,
+				280D5431184F3217009D5682 /* SkillViewController.h */,
+				280D5432184F3217009D5682 /* SkillViewController.m */,
+				280D542E184F30F3009D5682 /* SkillCell.h */,
+				280D542F184F30F3009D5682 /* SkillCell.m */,
+				280D53D3184F0A14009D5682 /* ViewController.h */,
+				280D53D4184F0A14009D5682 /* ViewController.m */,
+				280D53D6184F0A14009D5682 /* Images.xcassets */,
+				280D53F3184F0B5A009D5682 /* Image */,
+				280D53C2184F0A14009D5682 /* Supporting Files */,
+			);
+			path = Dota2Invoker;
+			sourceTree = "<group>";
+		};
+		280D53C2184F0A14009D5682 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				280D53C3184F0A14009D5682 /* Dota2Invoker-Info.plist */,
+				280D53C4184F0A14009D5682 /* InfoPlist.strings */,
+				280D53C7184F0A14009D5682 /* main.m */,
+				280D53C9184F0A14009D5682 /* Dota2Invoker-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		280D53E3184F0A14009D5682 /* Dota2InvokerTests */ = {
+			isa = PBXGroup;
+			children = (
+				280D53E9184F0A14009D5682 /* Dota2InvokerTests.m */,
+				280D53E4184F0A14009D5682 /* Supporting Files */,
+			);
+			path = Dota2InvokerTests;
+			sourceTree = "<group>";
+		};
+		280D53E4184F0A14009D5682 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				280D53E5184F0A14009D5682 /* Dota2InvokerTests-Info.plist */,
+				280D53E6184F0A14009D5682 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		280D53F3184F0B5A009D5682 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				2838F435185045F700C90ED1 /* wframe.png */,
+				2838F4331850446C00C90ED1 /* frame.png */,
+				2838F4311850427C00C90ED1 /* shadow.jpg */,
+				280D53F4184F0B5A009D5682 /* invoker_alacrity_hp1.png */,
+				280D53F5184F0B5A009D5682 /* invoker_chaos_meteor_hp1.png */,
+				280D53F6184F0B5A009D5682 /* invoker_cold_snap_hp1.png */,
+				280D53F7184F0B5A009D5682 /* invoker_deafening_blast_hp1.png */,
+				280D5422184F0DA4009D5682 /* cooldown.png */,
+				280D5423184F0DA4009D5682 /* heroprimaryportrait_overlay.png */,
+				280D5424184F0DA4009D5682 /* mana.png */,
+				280D53F8184F0B5A009D5682 /* invoker_emp_hp1.png */,
+				280D53F9184F0B5A009D5682 /* invoker_exort_hp1.png */,
+				280D53FA184F0B5A009D5682 /* invoker_forge_spirit_hp1.png */,
+				280D53FB184F0B5A009D5682 /* invoker_full.png */,
+				280D53FC184F0B5A009D5682 /* invoker_ghost_walk_hp1.png */,
+				280D53FD184F0B5A009D5682 /* invoker_ice_wall_hp1.png */,
+				280D53FE184F0B5A009D5682 /* invoker_invoke_hp1.png */,
+				280D53FF184F0B5A009D5682 /* invoker_quas_hp1.png */,
+				280D5400184F0B5A009D5682 /* invoker_sun_strike_hp1.png */,
+				280D5401184F0B5A009D5682 /* invoker_tornado_hp1.png */,
+				280D5402184F0B5A009D5682 /* invoker_vert.jpg */,
+				280D5403184F0B5A009D5682 /* invoker_wex_hp1.png */,
+				280D5404184F0B5A009D5682 /* overviewicon_agi.png */,
+				280D5405184F0B5A009D5682 /* overviewicon_attack.png */,
+				280D5406184F0B5A009D5682 /* overviewicon_defense.png */,
+				280D5407184F0B5A009D5682 /* overviewicon_int.png */,
+				280D5408184F0B5A009D5682 /* overviewicon_speed.png */,
+				280D5409184F0B5A009D5682 /* overviewicon_str.png */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		280D53B7184F0A14009D5682 /* Dota2Invoker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 280D53ED184F0A14009D5682 /* Build configuration list for PBXNativeTarget "Dota2Invoker" */;
+			buildPhases = (
+				280D53B4184F0A14009D5682 /* Sources */,
+				280D53B5184F0A14009D5682 /* Frameworks */,
+				280D53B6184F0A14009D5682 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Dota2Invoker;
+			productName = Dota2Invoker;
+			productReference = 280D53B8184F0A14009D5682 /* Dota2Invoker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		280D53DB184F0A14009D5682 /* Dota2InvokerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 280D53F0184F0A14009D5682 /* Build configuration list for PBXNativeTarget "Dota2InvokerTests" */;
+			buildPhases = (
+				280D53D8184F0A14009D5682 /* Sources */,
+				280D53D9184F0A14009D5682 /* Frameworks */,
+				280D53DA184F0A14009D5682 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				280D53E2184F0A14009D5682 /* PBXTargetDependency */,
+			);
+			name = Dota2InvokerTests;
+			productName = Dota2InvokerTests;
+			productReference = 280D53DC184F0A14009D5682 /* Dota2InvokerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		280D53B0184F0A14009D5682 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Du Cong";
+				TargetAttributes = {
+					280D53DB184F0A14009D5682 = {
+						TestTargetID = 280D53B7184F0A14009D5682;
+					};
+				};
+			};
+			buildConfigurationList = 280D53B3184F0A14009D5682 /* Build configuration list for PBXProject "Dota2Invoker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 280D53AF184F0A14009D5682;
+			productRefGroup = 280D53B9184F0A14009D5682 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				280D53B7184F0A14009D5682 /* Dota2Invoker */,
+				280D53DB184F0A14009D5682 /* Dota2InvokerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		280D53B6184F0A14009D5682 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				280D5410184F0B5A009D5682 /* invoker_exort_hp1.png in Resources */,
+				280D540E184F0B5A009D5682 /* invoker_deafening_blast_hp1.png in Resources */,
+				280D5426184F0DA4009D5682 /* heroprimaryportrait_overlay.png in Resources */,
+				280D541A184F0B5A009D5682 /* invoker_wex_hp1.png in Resources */,
+				280D541B184F0B5A009D5682 /* overviewicon_agi.png in Resources */,
+				280D53D7184F0A14009D5682 /* Images.xcassets in Resources */,
+				280D540B184F0B5A009D5682 /* invoker_alacrity_hp1.png in Resources */,
+				280D540D184F0B5A009D5682 /* invoker_cold_snap_hp1.png in Resources */,
+				280D5412184F0B5A009D5682 /* invoker_full.png in Resources */,
+				280D53CF184F0A14009D5682 /* Main_iPhone.storyboard in Resources */,
+				280D540F184F0B5A009D5682 /* invoker_emp_hp1.png in Resources */,
+				280D540C184F0B5A009D5682 /* invoker_chaos_meteor_hp1.png in Resources */,
+				280D5417184F0B5A009D5682 /* invoker_sun_strike_hp1.png in Resources */,
+				2838F4321850427C00C90ED1 /* shadow.jpg in Resources */,
+				280D5413184F0B5A009D5682 /* invoker_ghost_walk_hp1.png in Resources */,
+				280D541C184F0B5A009D5682 /* overviewicon_attack.png in Resources */,
+				280D541D184F0B5A009D5682 /* overviewicon_defense.png in Resources */,
+				280D5425184F0DA4009D5682 /* cooldown.png in Resources */,
+				280D5419184F0B5A009D5682 /* invoker_vert.jpg in Resources */,
+				280D5416184F0B5A009D5682 /* invoker_quas_hp1.png in Resources */,
+				280D541F184F0B5A009D5682 /* overviewicon_speed.png in Resources */,
+				280D5427184F0DA4009D5682 /* mana.png in Resources */,
+				280D5420184F0B5A009D5682 /* overviewicon_str.png in Resources */,
+				2838F4341850446C00C90ED1 /* frame.png in Resources */,
+				280D5415184F0B5A009D5682 /* invoker_invoke_hp1.png in Resources */,
+				280D53C6184F0A14009D5682 /* InfoPlist.strings in Resources */,
+				2838F436185045F700C90ED1 /* wframe.png in Resources */,
+				280D5414184F0B5A009D5682 /* invoker_ice_wall_hp1.png in Resources */,
+				280D5411184F0B5A009D5682 /* invoker_forge_spirit_hp1.png in Resources */,
+				280D5418184F0B5A009D5682 /* invoker_tornado_hp1.png in Resources */,
+				280D541E184F0B5A009D5682 /* overviewicon_int.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		280D53DA184F0A14009D5682 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				280D53E8184F0A14009D5682 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		280D53B4184F0A14009D5682 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2814E5DC184F90C50008CB02 /* TabImageView.m in Sources */,
+				280D53D5184F0A14009D5682 /* ViewController.m in Sources */,
+				280D5430184F30F3009D5682 /* SkillCell.m in Sources */,
+				280D53CC184F0A14009D5682 /* AppDelegate.m in Sources */,
+				280D5433184F3217009D5682 /* SkillViewController.m in Sources */,
+				280D53C8184F0A14009D5682 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		280D53D8184F0A14009D5682 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				280D53EA184F0A14009D5682 /* Dota2InvokerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		280D53E2184F0A14009D5682 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 280D53B7184F0A14009D5682 /* Dota2Invoker */;
+			targetProxy = 280D53E1184F0A14009D5682 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		280D53C4184F0A14009D5682 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				280D53C5184F0A14009D5682 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		280D53CD184F0A14009D5682 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				280D53CE184F0A14009D5682 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		280D53E6184F0A14009D5682 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				280D53E7184F0A14009D5682 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		280D53EB184F0A14009D5682 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		280D53EC184F0A14009D5682 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		280D53EE184F0A14009D5682 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Dota2Invoker/Dota2Invoker-Prefix.pch";
+				INFOPLIST_FILE = "Dota2Invoker/Dota2Invoker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		280D53EF184F0A14009D5682 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Dota2Invoker/Dota2Invoker-Prefix.pch";
+				INFOPLIST_FILE = "Dota2Invoker/Dota2Invoker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		280D53F1184F0A14009D5682 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Dota2Invoker.app/Dota2Invoker";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Dota2Invoker/Dota2Invoker-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Dota2InvokerTests/Dota2InvokerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		280D53F2184F0A14009D5682 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Dota2Invoker.app/Dota2Invoker";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Dota2Invoker/Dota2Invoker-Prefix.pch";
+				INFOPLIST_FILE = "Dota2InvokerTests/Dota2InvokerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		280D53B3184F0A14009D5682 /* Build configuration list for PBXProject "Dota2Invoker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				280D53EB184F0A14009D5682 /* Debug */,
+				280D53EC184F0A14009D5682 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		280D53ED184F0A14009D5682 /* Build configuration list for PBXNativeTarget "Dota2Invoker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				280D53EE184F0A14009D5682 /* Debug */,
+				280D53EF184F0A14009D5682 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		280D53F0184F0A14009D5682 /* Build configuration list for PBXNativeTarget "Dota2InvokerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				280D53F1184F0A14009D5682 /* Debug */,
+				280D53F2184F0A14009D5682 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 280D53B0184F0A14009D5682 /* Project object */;
+}
